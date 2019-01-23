@@ -12,6 +12,8 @@ using clone with SSH or Http/s:
 * example `https://github.com/a-m-dev/git-flow.git`  
 
 
+
+
 ### Snapshotting
 **`git status`** will show you all changes that you made with your files  
 **`git add [filename.txt]`** will add that file toy staging area   
@@ -21,6 +23,9 @@ using clone with SSH or Http/s:
 **`git commit -m 'your message'`** will commit with your message in one line command   
 **`git rm -r [filename.txt] `** will remove that file or folder from git    
 **`git reset`** will unstage all staged files  
+
+
+
 
 
 ### Branching 
@@ -35,9 +40,15 @@ using clone with SSH or Http/s:
 **`git checkout -- [fileName.txt]`** discards all changes to file    
 
 
+
+
+
 ### Merging
 **`git merge [branchName]`** will merge a branch to the current repo   
 **`git merge [sourceBranch] [targetBranch]`** will merge sourceBranch into targetBranch  
+
+
+
 
 ### Stashing
 **`git stash`** will dump out all changes into stash and cleant the working repository
