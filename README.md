@@ -4,7 +4,7 @@ Simple git command that is so god damn useful
 
 ### initializing a Project
 using init:  
-`git init` will initialize a local git repo
+**`git init`** will initialize a local git repo
 
 using clone with SSH or Http/s:  
 **`git clone ssh://git@github.com/[yourUsername]/[yourTargetRepository].git`**    
@@ -13,14 +13,14 @@ using clone with SSH or Http/s:
 
 
 ### Snapshotting
-`git status` will show you all changes that you made with your files  
-`git add [filename.txt]` will add that file toy staging area   
-`git add -a` will add all changed files into staging area  
-`git add .` will do the same as above   
-`git commit` will open a vim or nano editor for adding message and commiting  
-`git commit -m 'your message'` will commit with your message in one line command   
-`git rm -r [filename.txt] `will remove that file or folder from git    
-`git reset` will unstage all staged files  
+**`git status`** will show you all changes that you made with your files  
+**`git add [filename.txt]`** will add that file toy staging area   
+**`git add -a`** will add all changed files into staging area  
+**`git add .`** will do the same as above   
+**`git commit`** will open a vim or nano editor for adding message and commiting  
+**`git commit -m 'your message'`** will commit with your message in one line command   
+**`git rm -r [filename.txt] `** will remove that file or folder from git    
+**`git reset`** will unstage all staged files  
 
 
 ### Branching 
