@@ -4,7 +4,7 @@ Simple git command that is so god damn useful
 
 ### initializing a Project
 using init:  
-`git init` => will initialize a local git repo
+`git init` will initialize a local git repo
 
 using clone with SSH or Http/s:  
 `git clone ssh://git@github.com/[yourUsername]/[yourTargetRepository].git`  
