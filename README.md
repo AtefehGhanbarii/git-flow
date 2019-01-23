@@ -36,3 +36,10 @@ using clone with SSH or Http/s:
 
 
 ### Merging
+`git merge [branchName]` will merge a branch to the current repo   
+`git merge [sourceBranch] [targetBranch]` will merge sourceBranch into targetBranch  
+`git stash` will dump out all changes into stash and cleant the working repository
+(this comes handy when you have an unfinished work and and already have a lot of changed files, then you need to work on a hotfix, in this kind of situations you can use git stash command to clear your working tree and then after you done with your bug and commited to the serve, you can use below command to get the previous changes on your repo)   
+`git stash pop` will bring back the files that you stashed before   
+`git stash clear` will clear the stashed files   
+
