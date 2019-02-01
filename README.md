@@ -56,3 +56,19 @@ using clone with SSH or Http/s:
 **`git stash pop`** will bring back the files that you stashed before   
 **`git stash clear`** will clear the stashed files   
 
+
+
+
+### Remote Repo Updation
+**`git remote add origin [remoteRepoUrl]`** Addes a remote repo url to your local git repository   
+**`git remote set-url origin [remoteRepoUrl]`** Set your remote repo url as target for your pulls && pushes  
+**`git push`** push your changes from local repo to remote repo( update remote repo by your changes )    
+**`git pull`** pull remote changes to your local repo ( get latest changes from remote repository )  
+**`git push origin [branchName]`** push your changes to your target branch  
+**`git pull origin [branchName]`** pull lates changes from your target branch  
+**`git push origin --delete [branchName]`** delete a branch on remote  
+
+
+### Compsrision of branches
+**`git log`** view your commits history  
+**`git diff [the branch name that you wanna to check diffrences] [target branch]`** see diffrences with the target branch  
