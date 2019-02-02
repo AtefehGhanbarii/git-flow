@@ -60,6 +60,7 @@ using clone with SSH or Http/s:
 
 
 ### Remote Repo Updation
+**`git rmeote -v`** see if your remote url is been set  
 **`git remote add origin [remoteRepoUrl]`** Addes a remote repo url to your local git repository   
 **`git remote set-url origin [remoteRepoUrl]`** Set your remote repo url as target for your pulls && pushes  
 **`git push`** push your changes from local repo to remote repo( update remote repo by your changes )    
