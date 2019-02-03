@@ -70,6 +70,6 @@ using clone with SSH or Http/s:
 **`git push origin --delete [branchName]`** delete a branch on remote  
 
 
-### Compsrision of branches
+### Comparison of branches
 **`git log`** view your commits history  
 **`git diff [the branch name that you wanna to check diffrences] [target branch]`** see diffrences with the target branch  
