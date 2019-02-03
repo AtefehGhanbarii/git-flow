@@ -31,6 +31,7 @@ using clone with SSH or Http/s:
 **`git add .`** will do the same as above   
 **`git commit`** will open a vim or nano editor for adding message and commiting  
 **`git commit -m 'your message'`** will commit with your message in one line command   
+**`git commit --amend -m 'your new message'`** change the commit message of the last commit   
 **`git rm -r [filename.txt] `** will remove that file or folder from git    
 **`git reset`** will unstage all staged files  
 
