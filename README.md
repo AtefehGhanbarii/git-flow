@@ -19,6 +19,7 @@ using clone with SSH or Http/s:
 **`git config --global user.name "[your name]"`** use this to set your name  
 **`git config --global user.email "[your email]"`** use this to set your email  
 **`git config --global user.password "[your password]"`** use this to set your password  
+**`git config --list`** see all your global project settings  
 
 
 
