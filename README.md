@@ -6,8 +6,8 @@ Simple git command that is so god damn useful
 ### initializing a Project
 using init:  
 **`git init`** will initialize a local git repo  
-**`git clone ssh://git@github.com/[yourUsername]/[yourTargetRepository].git`**    
-**`git clone https://github.com/[yourUsername]/[yourTargetRepository].git`**  
+**`git clone ssh://git@github.com/[yourUsername]/[yourTargetRepository].git`** clone a repo by ssh      
+**`git clone https://github.com/[yourUsername]/[yourTargetRepository].git`** clone a repo by https    
 * example `https://github.com/a-m-dev/git-flow.git`  
 
 
